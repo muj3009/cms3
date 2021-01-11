@@ -17,7 +17,8 @@ public class WebConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry
             .addResourceHandler("/media/**")
-            .addResourceLocations("file:/C:/Users/Voja/Desktop/cmsshoppingcart/src/main/resources/static/media/");
+            .addResourceLocations("file:/C:/Users/mujtaba/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/course+files.zip_expanded/course files/cmsshoppingcart/src/main/resources/static/media");
+        
     }
     
 }

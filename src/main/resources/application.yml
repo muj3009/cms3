@@ -2,4 +2,4 @@ spring:
     security:
         user:
             name: user
-            password: pass
+            password: admin
